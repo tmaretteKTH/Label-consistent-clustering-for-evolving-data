@@ -11,7 +11,7 @@ do
                 for historical in "${historicals[@]}"
                 do      
                 echo $dataset $historical $k
-                        python3 src/setup1.py $dataset $historical $k &
+                        python3 src/setup1.py $dataset $historical $k
                 done
         done
 done

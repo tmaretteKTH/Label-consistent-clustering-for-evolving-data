@@ -6,7 +6,7 @@ for k in "${ks[@]}"
         do
         for b in "${bs[@]}"
         do
-                python3 src/scalability.py $k $b &
+                python3 src/scalability.py $k $b
         done
 done
 python3 src/plotsForScalability.py

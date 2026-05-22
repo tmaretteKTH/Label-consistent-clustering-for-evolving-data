@@ -12,7 +12,7 @@ do
 		mkdir results/setup2/$dataset
                 for historical in "${historicals[@]}"
                 do
-                        python3 src/setup2.py $dataset $historical $k &
+                        python3 src/setup2.py $dataset $historical $k
                 done
         done
 done
